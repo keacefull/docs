@@ -13,7 +13,7 @@ $app->provider->getLoginUrl(string $redirectUri = '', string $userType = 'admin'
 $app->provider->getLoginInfo(string $authCode); //$authCode oauth2.0授权企业微信管理员登录产生的code，最长为512字节。只能使用一次，5分钟未被使用自动过期
 ```
 
-#注册定制化 
+# 注册定制化 
 
 ### 获取注册码
 
